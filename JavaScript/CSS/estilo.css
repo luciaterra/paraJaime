@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .gridContainer {
+        display: grid;
+        grid-template-areas:
+            "header header""navIzq navDer"
+            "img img""footer footer";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 70px auto 1fr 100px;
+    }
+
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+
+    div.navIzq {
+        grid-area: navIzq;
+    }
+
+
+    li {
+        padding: 10px;
+        list-style-type: none;
+    }
+
+    div.navDer {
+        grid-area: navDer;
+    }
+
+    footer {
+        grid-area: footer;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+}
+
+    header {
+        grid-area: header;
+        text-align: center;
+    }
+
+    div.navIzq {
+        grid-area: navIzq;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+    body {
+        background-image: none ;
+
+    }
+
+
+    header {
+        border-bottom: 2px solid black;
+    }
+
+    h1 {
+        color: rgba(0, 110, 255, 0.853);
+        padding: 15px;
+    }
+
+    header ul li {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .bordesRedondeados {
+        border-radius: 2px;
+    }
+
+    .textos {
+        text-align: center;
+        font-size: 20px;
+        color: rgb(246, 221, 83);
+    }
+
+
+    footer {
+        color: rgba(0, 110, 255, 0.853);
+        text-align: center;
+        }
+
+    footer ul li {
+        color: rgba(0, 110, 255, 0.853);
+    }
+
+    .main {
+        list-style: none;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }

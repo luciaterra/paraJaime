@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprando</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body >
+    <nav >
+        <div >
+            <h1 >Adquiriendo el servicio</h1>
+        </div>
+        <div >
+            <button type="button" ><a href="../index.html">
+                    << Volver a la tienda</a></button>
+        </div>
+    </nav>
+
+    <div >
+        <form >
+            <div >
+                <label for="inputEmail4" >Correo Electrónico</label>
+                <input type="email"  id="inputEmail1" required>
+            </div>
+            <div >
+                <label for="inputPassword4" >Contraseña</label>
+                <input type="password"  id="inputPassword1" required>
+            </div>
+            <div >
+                <label for="inputEmail4" >Nombre completo</label>
+                <input type="text" class="form-control" id="inputEmail2" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" >DNI</label>
+                <input type="text"  id="inputPassword2" required>
+            </div>
+            <div >
+                <label for="inputEmail4" >Tarjeta de credito N°</label>
+                <input type=""  id="inputEmail3" required>
+            </div>
+            <div class="col-md-3">
+                <label for="inputZip" class="form-label">Código de seguridad</label>
+                <input type=""  id="inputZip">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" >Dirección</label>
+                <input type="text" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" >Ciudad</label>
+                <input type="text"  id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" >Provincia</label>
+                <select id="inputState" >
+                    <option selected>Buenos Aires</option>
+                    <option >Catamarca</option>
+                    <option >Chaco</option>
+                    <option >Chubut</option>
+                    <option >Córdoba</option>
+                    <option >Corrientes</option>
+                    <option >Entre Ríos</option>
+                    <option >Formosa</option>
+                    <option >Jujuy</option>
+                    <option >La Pampa</option>
+                    <option >La Rioja</option>
+                    <option >Mendoza</option>
+                    <option >Misiones</option>
+                    <option >Neuquén</option>
+                    <option >Río Negro</option>
+                    <option >Salta</option>
+                    <option >San Juan</option>
+                    <option >San Luis</option>
+                    <option >Santa Cruz</option>
+                    <option >Santa Fe</option>
+                    <option >Santiago del Estero</option>
+                    <option >Tierra del Fuego</option>
+                    <option >Tucumán</option>
+                </select>
+            </div>
+            <div>
+                <label for="inputZip" >Código Postal</label>
+                <input type="text"  id="inputZip2">
+            </div>
+            <div class="col-12">
+                <div >
+                    <input type="checkbox" id="gridCheck" required>
+                    <label for="gridCheck">
+                        Acepto los términos y condiciones.
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                
+                <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Realizar reserva
+                </button>
+
+                <div  id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div >
+                        <div >
+                            <div >
+                                <h5  id="staticBackdropLabel">Reserva realizada</h5>
+                                <button type="button" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div>
+                                <p>¡Muchas gracias!</p>
+                                <p>Nos contactaremos a su correo electronico para finalizar la compra.</p>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "El sapo pepe",
+        "desc": "Fotografa destaca en fotografía de aguas",
+        "price": 10.000,
+        "img": "./CSS/image/sapopepe.jpg"
+    },
+    {
+        "id": 2,
+        "name": "lapavayelpavo",
+        "desc": "Fotografo destacado en eventos de bodas",
+        "price": 100.000,
+        "img": "./CSS/image/pavoypava.jpg"
+    },
+    {
+        "id": 3,
+        "name": "la cucaracha",
+        "desc": "Fotografa especializada en fotos con enfoque terrestre",
+        "price": 8.0000,
+        "img": "./CSS/image/lacuca.jpg"
+    },
+    {
+        "id": 4,
+        "name": "La gallina turuleca",
+        "desc": "Fotografa destaca en fotografía de una visión particular",
+        "price": 50.000,
+        "img": "./CSS/image/turuleca.jpg"
+    },
+    {
+        "id": 5,
+        "name": "La Vaca lola",
+        "desc": "Fotografa destacado en fotografías en ambiente campestres",
+        "price": 150.000,
+        "img": ".CSS/image/vacalola.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Winsy Araña",
+        "desc": "Fotografa especializada en fotos de alturas extremas",
+        "price": 200.000,
+        "img": "./CSS/image/winsy.jpg"
+    }
+]
